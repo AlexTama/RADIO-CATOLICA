@@ -53,7 +53,7 @@
 
 					<!-- Animated logo -->
 					<div class="text-center" style="margin: 10% auto;">
-						<img src="img/Accelrys.jpg" alt="Radio Católica Pereira" class="text-center" style="width:424px; height:475px;">
+						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="text-center" style="width:424px; height:475px;">
 
 						<div class=" btn-lg" sytle="width:100px; hright:100px;">
 							<a href="#">
@@ -127,10 +127,12 @@
 
 							<!-- FOOTER -->
 							<div>
-								<h2 class="text-center" style="letter-spacing:5px;">Contacto</h2>
+								<hgroup>									
+									<h1 class="text-center color-font" style="letter-spacing:5px;">Contacto</h1>
+								</hgroup>
 
 								<!--*************************************************-->
-								<div class="col-md-6">
+								<div class="col-md-6 color-font">
 
 									<!-- INFORMATION -->
 									<div class="col-md-offset-1 col-md-10">
@@ -144,7 +146,7 @@
 								</div>
 								
 								<!--*************************************************-->
-								<div class="col-md-6">
+								<div class="col-md-6 color-font">
 
 									<!-- CONTACT FORM -->
 									<form action="">
