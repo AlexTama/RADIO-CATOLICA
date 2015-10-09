@@ -28,9 +28,8 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand page-scroll" href="index.php">INICIO</a>
+								<a class="navbar-brand page-scroll" href="index.php"><b>INICIO</b></a>
 							</div>
-
 							<!-- Contenido del navbar -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
@@ -38,10 +37,10 @@
 									    <a href="portafolio.php"></a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="#acerca">ACERCA DE</a>
+									    <a class="page-scroll" href="#acerca"><b>ACERCA</b></a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="#contacto">CONTACTO</a>
+									    <a class="page-scroll" href="#contacto"><b>CONTACTO</b></a>
 									</li>
 								</ul>
 							</div>
