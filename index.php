@@ -132,54 +132,15 @@
 								</hgroup>
 
 								<!--*************************************************-->
-								<div class="col-md-6 color-font">
-
-									<!-- INFORMATION -->
-									<div class="col-md-offset-1 col-md-10">
-										<h4 style="letter-spacing:5px;"><b>DIRECCIÓN</b></h4>
-										<p class="lead" style="letter-spacing:5px;">Calle 20 # 7-40</p>
-
-										<h4 style="letter-spacing:5px;"><b>TEL</b></h4>
-										<p class="lead" style="letter-spacing:5px;">(6) 324 8484</p>
-									</div>
-
+								<div class="col-md-6 color-font text-center">
+									<h4 style="letter-spacing:5px;"><b>DIRECCIÓN</b></h4>
+									<p class="lead" style="letter-spacing:5px;">Calle 20 # 7-40</p>
 								</div>
 								
 								<!--*************************************************-->
-								<div class="col-md-6 color-font">
-
-									<!-- CONTACT FORM -->
-									<form action="verificar.php" method="post">
-											
-										<!-- *************************************** -->
-										<div class="col-md-6">
-											<div class="form-group">
-				    							<input type="text" name="nombre" class="form-control
-				    							input-style" id="exampleInputEmail1" placeholder="Nombre" required>
-				  							</div>
-
-				  							<div class="form-group">				
-				    							<input type="email" name="email" class="form-control input-style" id="exampleInputEmail1" placeholder="Correo" required>
-				  							</div>
-
-				  							<div class="g-recaptcha" data-sitekey="6LcKRQ4TAAAAAJTEa41-Ic9EUL4Ow5UNsO5dwqDw"></div>
-
-											<div style="padding-top:20px;">
-				  								<button type="submit" name="enviar" class="ghost-button" style="letter-spacing: 5px;"><b>ENVIAR</b></button>
-											</div>
-										</div>
-											
-										<!-- *************************************** -->
-										<div class="col-md-6">
-											<div class="form-group">				
-				    							<input type="text" name="asunto" class="form-control input-style" id="exampleInputEmail1" placeholder="Asunto">
-				  							</div>
-
-											<div class="form-group">
-				    							<textarea class="form-control input-style" name="mensaje" id="" rows="6" placeholder="Mensaje"></textarea>
-				  							</div>
-										</div>						
-									</form>
+								<div class="col-md-6 color-font text-center">
+									<h4 style="letter-spacing:5px;"><b>TEL</b></h4>
+									<p class="lead" style="letter-spacing:5px;">(6) 324 8484</p>
 								</div>
 							</div>
 						</div>
