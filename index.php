@@ -28,7 +28,7 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand page-scroll" href="#page-top">INICIO</a>
+								<a class="navbar-brand page-scroll" href="index.php">INICIO</a>
 							</div>
 
 							<!-- Contenido del navbar -->
@@ -38,10 +38,10 @@
 									    <a href="portafolio.php"></a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="index.php">ACERCA DE</a>
+									    <a class="page-scroll" href="#acerca">ACERCA DE</a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="nuestra_historia.php">CONTACTO</a>
+									    <a class="page-scroll" href="#contacto">CONTACTO</a>
 									</li>
 								</ul>
 							</div>
@@ -111,7 +111,7 @@
 	<!-- form contact, localization by map and footer -->
 	<!-- *************************************** -->
 
-	<section class="container-fluid color-front">
+	<section id="contacto" class="container-fluid color-front">
 		<div class="row">
 			<div class="col-md-12">
 				
