@@ -107,7 +107,7 @@ html, body {
     z-index: 100;
 }
 
-#main{
+.main{
 	background-image: url(../img/emisora.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

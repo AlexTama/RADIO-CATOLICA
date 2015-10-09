@@ -3,7 +3,6 @@
 <head>
 	<!-- meta, scripts and css bootstrap DNS -->
 	<?php include 'INCLUDES/headers.php'; ?>
-
 	<title>Radio Católica Pereira | Diócesis de Pereira</title>
 </head>
 <body>
@@ -72,7 +71,7 @@
 	<!-- Description and title -->
 	<!-- *************************************** -->
 
-	<section id="main" class="container-fluid" style="width:100%; height:100%;">
+	<section id="acerca" class="container-fluid main" style="width:100%; height:100%;">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				
