@@ -11,6 +11,46 @@ html, body {
 	color: rgba(48,138,204,1);
 }
 
+/******************************************/
+/* CONTACT DESIGN FORM */
+/******************************************/
+
+.contact-style{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.input-style{
+	background-color: rgba(255,255,255,0) !important;
+	border: 0px solid !important;
+	border-bottom: 1px solid #308ACC !important;
+	border-radius: 0px !important;
+	box-shadow: 0px 0px 0px rgba(0,0,0, 0) !important;
+	letter-spacing: 5px;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #308ACC !important;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: #308ACC !important;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: #308ACC !important;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: #308ACC !important;
+}
+
+
+/******************************************/
+/* FOOTER AND CPPYRIGHT STYLE */
+/******************************************/
+
 .footer-style{
 	background-color: rgba(178,45,41,1);
 	color: #ffffff;
@@ -20,6 +60,36 @@ html, body {
 .footer-cp{
 	padding: 5% 0;
 }
+
+/******************************************/
+/* GHOST BUTTON */
+/******************************************/
+
+.ghost-button{
+	background-color: rgba(255,255,255,0);
+	border: 0.15em solid #308ACC;
+	color: #308ACC;
+	display: inline-block;
+	letter-spacing: 2px;
+	padding: 0.8em 1.3em;
+	position: relative;
+	text-decoration: none;
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost-button:hover {
+	color: #fff;
+    background: #308ACC;
+    border-color: #308ACC;
+    text-decoration: none;
+}
+
+/******************************************/
+/* MAP DESIGN */
+/******************************************/
 
 #gmap{
     width: 100%;
