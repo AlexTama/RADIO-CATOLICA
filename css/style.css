@@ -111,7 +111,7 @@ html, body {
 	background-image: url(../img/emisora.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
-	-ms-background-size:cover;
+	-ms-background-size:cover
 	-o-background-size:cover;
 	background-size:cover;
 	margin: auto;

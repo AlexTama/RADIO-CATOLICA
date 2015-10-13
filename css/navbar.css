@@ -87,7 +87,7 @@
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #466DB4;
+        background-color: rgba(70, 109, 180, 0.5);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {

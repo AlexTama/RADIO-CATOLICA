@@ -12,7 +12,7 @@
 	<!-- menu, header and animated logo -->
 	<!-- *************************************** -->
 
-	<section class="container-fluid" style="width:100%; height:100%;">
+	<section id="index" class="container-fluid" style="width:100%; height:100%;">
 		<div class="row">
 			<div class="col-md-12">
 				<header>
@@ -54,7 +54,7 @@
 						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="text-center" style="width:424px; height:475px;">
 
 						<div class=" btn-lg" sytle="width:100px; hright:100px;">
-							<a href="#">
+							<a href="#acerca">
 								<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
 							</a>
 						</div>						
