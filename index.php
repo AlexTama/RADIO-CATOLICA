@@ -80,7 +80,12 @@
 
 					<!-- STREAMING RADIO PLAYER -->
 					<div class="col-md-6" style="color:#ffffff;">
-						<p>REPRODUCTOR DE STREAMING</p>
+						
+						<audio controls autoplay>
+						    <source src="http://195.154.182.222:25103/;stream.mp3" type="audio/mpeg" />
+						    Tu navegador no es compatible con esta característica.                        
+						</audio>
+
 					</div>
 					<div class="col-md-6". style="color:#ffffff;">
 						<h1>Nuestra Emisora</h1>
