@@ -51,7 +51,7 @@
 
 					<!-- Animated logo -->
 					<div class="text-center" style="margin: 10% auto;">
-						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="text-center" style="width:424px; height:475px;">
+						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="text-center animated fadeInDown delay-logo" style="width:424px; height:475px;">
 
 						<div class=" btn-lg" sytle="width:100px; hright:100px;">
 							<a href="#acerca">
@@ -81,7 +81,7 @@
 					<!-- STREAMING RADIO PLAYER -->
 					<div class="col-md-6" style="color:#ffffff;">
 						
-						<audio controls autoplay>
+						<audio controls>
 						    <source src="http://195.154.182.222:25103/;stream.mp3" type="audio/mpeg" />
 						    Tu navegador no es compatible con esta característica.                        
 						</audio>
