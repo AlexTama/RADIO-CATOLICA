@@ -10,15 +10,15 @@
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #000000;
+    font-family: "Helvetica Neue",Helvetica, "Kaushan Script", Arial,cursive;
+    color: #308ACC;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #000000;
+    color: #80CBFF;
 }
 
 .navbar-default .navbar-collapse {
@@ -44,13 +44,13 @@
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #000000;
+    color: #308ACC;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #308ACC;
+    color: #80CBFF;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -87,7 +87,8 @@
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: rgba(70, 109, 180, 0.9);
+        /*background-color: rgba(70, 109, 180, 0.9);*/
+        background-color: rgba(11, 46, 111, 0.9);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {

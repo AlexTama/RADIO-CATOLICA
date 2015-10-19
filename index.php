@@ -64,7 +64,7 @@
 		</div>
 	</section>
 
-		<!-- *************************************** -->
+	<!-- *************************************** -->
 	<!-- SECOND SECTION -->
 	<!-- streaming player fot the radio and video -->
 	<!-- Description and title -->
@@ -181,10 +181,10 @@
 			<div class="col-md-12 footer-style text-center">
 				<footer class="text-center footer-cp" style="letter-spacing:2px;">
 					<div class="col-md-6">
-						<p>© 2015 Radio Católica Pereira</p>
+						<p class="lead">© 2015 Radio Católica Pereira</p>
 					</div>
 					<div class="col-md-6">
-						<p>Desarrollado por Alexander Tamayo Pino</p>
+						<p class="lead">Desarrollado por Alexander Tamayo Pino</p>
 					</div>
 				</footer>
 			</div>
