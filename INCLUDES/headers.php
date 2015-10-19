@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <!-- FAVICON -->
-<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico" />
