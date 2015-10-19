@@ -87,6 +87,9 @@
 						    Tu navegador no es compatible con esta característica.                        
 						</audio>
 
+						<!-- PLAYER LIST -->
+						<div id="cc_recenttracks_radiocape" class="cc_recenttracks_list lead">Cargando ...</div>
+
 					</div>
 					<div class="col-md-6". style="color:#ffffff;">
 						<h1 class="lead title-size">Nuestra Emisora</h1>
