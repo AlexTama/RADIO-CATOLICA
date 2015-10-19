@@ -28,7 +28,7 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand page-scroll" href="index.php"><b>INICIO</b></a>
+								<a class="navbar-brand page-scroll" href="index.php">INICIO</a>
 							</div>
 							<!-- Contenido del navbar -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,10 +37,10 @@
 									    <a href="portafolio.php"></a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="#acerca"><b>ACERCA</b></a>
+									    <a class="page-scroll" href="#acerca">ACERCA</a>
 									</li>
 									<li>
-									    <a class="page-scroll" href="#contacto"><b>CONTACTO</b></a>
+									    <a class="page-scroll" href="#contacto">CONTACTO</a>
 									</li>
 								</ul>
 							</div>
@@ -51,7 +51,7 @@
 
 					<!-- Animated logo -->
 					<div class="text-center" style="margin: 10% auto;">
-						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="text-center animated fadeInDown delay-logo" style="width:424px; height:475px;">
+						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="img-responsive text-center animated fadeInDown delay-logo" style="width:424px; height:475px; margin:0 auto;">
 
 						<div class=" btn-lg" sytle="width:100px; hright:100px;">
 							<a href="#acerca">
@@ -80,6 +80,7 @@
 
 					<!-- STREAMING RADIO PLAYER -->
 					<div class="col-md-6" style="color:#ffffff;">
+						<h2 class="lead subtitle-size">Transmisión en Vivo</h2>						
 						
 						<audio controls>
 						    <source src="http://195.154.182.222:25103/;stream.mp3" type="audio/mpeg" />
@@ -88,67 +89,36 @@
 
 					</div>
 					<div class="col-md-6". style="color:#ffffff;">
-						<h1>Nuestra Emisora</h1>
+						<h1 class="lead title-size">Nuestra Emisora</h1>
 						<p class="lead" style="color:#ffffff;">
 							This is Photoshop's version of Lorem Ipsum. Proin gravida 
 							nibh vel velit auctor aliquet.  Aenean sollicitudin, lorem quis bibendum auctor, 
 							nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
  							vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
 						</p>
+						
+						<!--******************************* -->
+						<!-- STREAMING VIDEO PLAYER -->
+						<div class="col-md-12 text-center">
+							<p class="lead" style="color:#ffffff;">
+								ENLACE PARA EL REPRODUCTOR DE VÍDEO
+							</p>
+						</div>
+
 					</div>					
 				</div>	
-			</div>
-
-			<!--******************************* -->
-			<!-- STREAMING VIDEO PLAYER -->
-
-			<div class="col-md-12 text-center">
-				<p class="lead" style="color:#ffffff;">
-					REPRODUCTOR DE VÍDEO
-				</p>
 			</div>
 		</div>
 	</section>
 
 	<!-- *************************************** -->
 	<!-- LAST SECTION -->
-	<!-- form contact, localization by map and footer -->
+	<!-- localization by map and footer -->
 	<!-- *************************************** -->
 
 	<section id="contacto" class="container-fluid color-front">
 		<div class="row">
 			<div class="col-md-12">
-				
-				<!-- ******************************************************************* -->
-				<!-- CONTACT FORM AND INFORMATION ABOUT THIS SITE -->
-				<!-- ******************************************************************* -->
-
-				<section class="containder-fluid">
-					<div class="row">
-
-						<div class="col-md-12 contact-style">
-
-							<!-- FOOTER -->
-							<div>
-								<hgroup>									
-									<h1 class="text-center color-font" style="letter-spacing:5px;">Contacto</h1>
-								</hgroup>
-
-								<!--*************************************************-->
-								<div class="col-md-6 color-font text-center">
-									<h4 style="letter-spacing:5px;"><b>DIRECCIÓN</b></h4>
-									<p class="lead" style="letter-spacing:5px;">Calle 20 # 7-40</p>
-								</div>
-								
-								<!--*************************************************-->
-								<div class="col-md-6 color-font text-center">
-									<h4 style="letter-spacing:5px;"><b>TEL</b></h4>
-									<p class="lead" style="letter-spacing:5px;">(6) 324 8484</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 
 				<!-- ******************************************************************* -->
 				<!-- MAP SECTION -->
@@ -164,6 +134,38 @@
 						</div>
 					</div>
 				</section>
+				
+				<!-- ******************************************************************* -->
+				<!-- INFORMATION ABOUT THIS SITE -->
+				<!-- ******************************************************************* -->
+
+				<section class="containder-fluid" style="margin:2% 0;">
+					<div class="row">
+
+						<div class="col-md-6 col-md-offset-3 contact-style">
+
+							<!-- FOOTER -->
+							<div>
+								<hgroup>									
+									<h1 class="text-center color-font lead subtitle-size" style="letter-spacing:5px;">Contacto</h1>
+								</hgroup>
+
+								<!--*************************************************-->
+								<div class="col-md-6 color-font text-center">
+									<h4 style="letter-spacing:5px;"><b>DIRECCIÓN</b></h4>
+									<p class="lead" style="letter-spacing:5px;">Calle 20 # 7-40</p>
+								</div>
+								
+								<!--*************************************************-->
+								<div class="col-md-6 color-font text-center">
+									<h4 style="letter-spacing:5px;"><b>TEL</b></h4>
+									<p class="lead" style="letter-spacing:5px;">(6) 324 8484</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
 
 			</div>
 		</div>
@@ -174,15 +176,15 @@
 	<!-- copy right and credits by development -->
 	<!-- *************************************** -->
 
-	<section class="container-fluid" style="width:100%;">
+	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 footer-style text-center">
 				<footer class="text-center footer-cp" style="letter-spacing:2px;">
 					<div class="col-md-6">
-						<h5>© 2015 Radio Católica Pereira</h5>
+						<p>© 2015 Radio Católica Pereira</p>
 					</div>
 					<div class="col-md-6">
-						<h5>Desarrollado por Alexander Tamayo Pino</h5>
+						<p>Desarrollado por Alexander Tamayo Pino</p>
 					</div>
 				</footer>
 			</div>

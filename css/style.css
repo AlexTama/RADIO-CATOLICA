@@ -11,6 +11,16 @@ html, body {
 	color: rgba(48,138,204,1);
 }
 
+.subtitle-size{
+	font-size: 40px !important;
+	letter-spacing: 2px;
+}
+
+.title-size{
+	font-size: 60px !important;
+	letter-spacing: 2px;
+}
+
 
 /******************************************/
 /* FOOTER AND CPPYRIGHT STYLE */
@@ -23,7 +33,7 @@ html, body {
 }
 
 .footer-cp{
-	padding: 5% 0;
+	padding: 6% 0 2%;
 }
 
 /******************************************/
@@ -82,6 +92,10 @@ html, body {
 	margin: auto;
 }
 
+/******************************************/
+/* LOGO ANIMATED */
+/******************************************/
+
 .delay-logo{
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s;
@@ -89,3 +103,4 @@ html, body {
 	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
+
