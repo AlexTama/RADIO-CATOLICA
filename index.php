@@ -76,7 +76,7 @@
 				
 				<!--******************************* -->
 
-				<div class="col-md-12">
+				<div class="col-md-12 online">
 
 					<!-- STREAMING RADIO PLAYER -->
 					<div class="col-md-6" style="color:#ffffff;">
@@ -119,7 +119,7 @@
 	<!-- localization by map and footer -->
 	<!-- *************************************** -->
 
-	<section id="contacto" class="container-fluid" style="height:100%; width:100%; background-color:#0B2E6F;">
+	<section id="contacto" class="container-fluid" style="height:100%; width:100%;">
 		<div class="row"
 			<div class="col-md-12">
 
@@ -127,9 +127,9 @@
 				<!-- MAP SECTION -->
 				<!-- ******************************************************************* -->
 
-				<div id="gmap" class="col-md-12">
+				<div id="gmap">
 					<div id="gmap-draw">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d993.9346577470208!2d-75.6953255!3d4.8148793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388748c4380771%3A0xd6fa8947dd7fe055!2sCatedral+de+Nuestra+Se%C3%B1ora+de+la+Pobreza!5e0!3m2!1ses!2ses!4v1441902223982" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d993.9346577470208!2d-75.6953255!3d4.8148793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388748c4380771%3A0xd6fa85947dd7fe055!2sCatedral+de+Nuestra+Se%C3%B1ora+de+la+Pobreza!5e0!3m2!1ses!2ses!4v1441902223982" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 
 				</div>
@@ -137,8 +137,8 @@
 				<!-- ******************************************************************* -->
 				<!-- INFORMATION ABOUT THIS SITE -->
 				<!-- ******************************************************************* -->
-
-				<div class="col-md-6 col-md-offset-3">
+				<div class="col-md-12 contact-style">
+					<div class="col-md-6 col-md-offset-3">
 
 					<!-- FOOTER -->
 					<div>
@@ -159,20 +159,21 @@
 						</div>
 					</div>
 
-				</div>
+					</div>
 
-				<!-- *************************************** -->
-				<!-- FOOTER -->
-				<!-- copy right and credits by development -->
-				<!-- *************************************** -->
-				<footer class="text-center footer-cp color-font" style="letter-spacing:2px;">
-					<div class="col-md-6">
-						<p class="lead">© 2015 Radio Católica Pereira</p>
-					</div>
-					<div class="col-md-6">
-						<p class="lead">Desarrollado por Alexander Tamayo Pino</p>
-					</div>
-				</footer>
+					<!-- *************************************** -->
+					<!-- FOOTER -->
+					<!-- copy right and credits by development -->
+					<!-- *************************************** -->
+					<footer class="text-center footer-cp color-font" style="letter-spacing:2px;">
+						<div class="col-md-6">
+							<p class="lead">© 2015 Radio Católica Pereira</p>
+						</div>
+						<div class="col-md-6">
+							<p class="lead">Desarrollado por Alexander Tamayo Pino</p>
+						</div>
+					</footer>
+				</div>
 
 			</div>
 		</div>

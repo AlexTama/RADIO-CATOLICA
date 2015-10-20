@@ -21,6 +21,10 @@ html, body {
 	letter-spacing: 2px;
 }
 
+.online{
+	padding: 5% 0 0;
+}
+
 
 /******************************************/
 /* FOOTER AND CPPYRIGHT STYLE */
@@ -97,5 +101,23 @@ html, body {
 	-ms-animation-delay: 0.5s;
 	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
+}
+
+@media (max-width: 1549px) {
+	.contact-style{
+		background-color:#0B2E6F;
+	}
+}
+
+@media (min-width: 1550px){
+	.contact-style{
+		background-color:#0B2E6F;
+		padding: 7% 0 10%;
+ 	}
+
+ 	.online{
+	padding: 15% 0 0;
+}
+
 }
 
