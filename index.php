@@ -50,7 +50,7 @@
 					</nav>
 
 					<!-- Animated logo -->
-					<div class="text-center" style="margin: 10% auto;">
+					<div class="text-center logo">
 						<img src="img/logo_header.jpg" alt="Radio Católica Pereira" class="img-responsive text-center animated fadeInDown delay-logo" style="width:424px; height:475px; margin:0 auto;">
 
 						<div class=" btn-lg" sytle="width:100px; hright:100px;">

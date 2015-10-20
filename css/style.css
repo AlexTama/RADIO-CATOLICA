@@ -11,6 +11,7 @@ html, body {
 	color: rgba(48,138,204,1);
 }
 
+
 .subtitle-size{
 	font-size: 40px !important;
 	letter-spacing: 2px;
@@ -107,6 +108,10 @@ html, body {
 	.contact-style{
 		background-color:#0B2E6F;
 	}
+
+	.logo{
+		margin: 12% auto;
+	}
 }
 
 @media (min-width: 1550px){
@@ -116,8 +121,12 @@ html, body {
  	}
 
  	.online{
-	padding: 15% 0 0;
-}
+		padding: 15% 0 0;
+	}
+
+	.logo{
+		margin: 15% auto;
+	}
 
 }
 
