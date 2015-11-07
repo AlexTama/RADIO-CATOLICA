@@ -2,7 +2,17 @@
 <html lang="es">
 <head>
 	<!-- meta, scripts and css bootstrap DNS -->
-	<?php include 'INCLUDES/headers.php'; ?>
+	<?php
+
+	include_once 'INCLUDES/functions.php';
+
+	$keywords 		= '"Vídeo streaming, Radio Católica, Diócesis de Pereira"';
+	$description 	= '"Esta es la descripción para la página de vídeo de la emisora"';
+	$title			= 'Transmisión de Vídeo | Diócesis de Pereira';
+
+	echo headers($keywords, $description, $title);
+
+	?>
 	<title>Radio Católica Pereira | Diócesis de Pereira</title>
 </head>
 <body>
@@ -18,36 +28,16 @@
 				<header>
 
 					<!-- Menu -->
-					<nav class="navbar navbar-default navbar-fixed-top" style="letter-spacing:1px;">
-						<div class="container">
-							<!-- icono mostrado en modo móvil-->
-							<div class="navbar-header page-scroll">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<a class="navbar-brand page-scroll" href="index.php">INICIO</a>
-							</div>
-							<!-- Contenido del navbar -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav navbar-right">
-									<li class="hidden">
-									    <a href="portafolio.php"></a>
-									</li>
-									<li>
-									    <a class="page-scroll" href="#acerca">ACERCA</a>
-									</li>
-									<li>
-									    <a class="page-scroll" href="#contacto">CONTACTO</a>
-									</li>
-								</ul>
-							</div>
-						<!-- /.navbar-collapse -->
-						</div>
-						<!-- /.container-fluid -->
-					</nav>
+					<?php 
+
+					include_once 'INCLUDES/functions.php'; 
+
+					$enlace 	= "ACERCA";
+					$referencia = '"#acerca"';
+
+					echo menu($enlace, $referencia);
+
+					?>
 
 					<!-- Animated logo -->
 					<div class="text-center logo">
@@ -165,14 +155,14 @@
 					<!-- FOOTER -->
 					<!-- copy right and credits by development -->
 					<!-- *************************************** -->
-					<footer class="text-center footer-cp color-font" style="letter-spacing:2px;">
-						<div class="col-md-6">
-							<p class="lead">© 2015 Radio Católica Pereira</p>
-						</div>
-						<div class="col-md-6">
-							<p class="lead">Desarrollado por Alexander Tamayo Pino</p>
-						</div>
-					</footer>
+					<!-- FOOTER -->
+				<?php 
+
+				include_once 'INCLUDES/functions.php';
+
+				FOOTER();
+
+				?>
 				</div>
 
 			</div>
@@ -180,6 +170,12 @@
 	</section>
 	
 	<!-- SCRIPTS FOR ANIMATION AND MAP -->
-	<?php include 'INCLUDES/scripts.php'; ?>
+	<?php 
+
+	include_once 'INCLUDES/functions.php'; 
+
+	echo scripts();
+
+	?>
 </body>
 </html>
